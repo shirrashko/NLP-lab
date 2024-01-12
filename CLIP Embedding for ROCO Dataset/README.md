@@ -24,15 +24,16 @@ A step by step series of examples that tell you how to get a development environ
 
 1. Clone the repository:
    ```bash
-   git clone git@github.com:shirrashko/NLP-lab.git
+    git clone git@github.com:shirrashko/NLP-lab.git
     ```
    
-2.  Install required packages
+2. Install required packages
    ```bash
     pip install -r requirements.txt
    ```
 The roco-dataset folder is achieved using the [roco-dataset repository](https://github.com/razorx89/roco-dataset).
-## Usage
+
+### Usage
 To run the script, navigate to the script's directory and use the following command:
    ```bash
     python script.py /path/to/roco-dataset
@@ -40,17 +41,17 @@ To run the script, navigate to the script's directory and use the following comm
 
 Replace /path/to/roco-dataset with the path to the ROCO dataset on your machine.
 
-## Script Overview
+### Script Overview
 - load_roco_dataset: Loads the ROCO dataset from the specified path.
 - preprocess_images: Preprocesses images for the CLIP model.
 - truncate_captions: Truncates captions to a maximum character length.
 - generate_embeddings: Generates embeddings for images and captions using the CLIP model.
 - test_clip_embeddings: Tests and visualizes the cosine similarity between image and text embeddings.
 
-## Results
+### Results
 ![image](https://github.com/shirrashko/NLP-lab/blob/main/CLIP%20Embedding%20for%20ROCO%20Dataset/similarity%20graph.png?raw=true)
 
-## Interpreting the results:
+### Interpreting the results:
 - The heatmap visualizes the similarity scores between each image and text embedding.
 - Each cell in the heatmap corresponds to the similarity score between an image and a text.
 - Ideally, higher similarity scores (brighter colors) should align along the diagonal, indicating that each image is most similar to its corresponding caption.
