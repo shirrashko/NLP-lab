@@ -49,7 +49,8 @@ Replace /path/to/roco-dataset with the path to the ROCO dataset on your machine.
 - test_clip_embeddings: Tests and visualizes the cosine similarity between image and text embeddings.
 
 ### Results
-![image](https://github.com/shirrashko/NLP-lab/blob/main/CLIP%20Embedding%20for%20ROCO%20Dataset/similarity%20graph.png?raw=true)
+<img src="https://github.com/shirrashko/NLP-lab/blob/main/CLIP%20Embedding%20for%20ROCO%20Dataset/similarity%20graph.png?raw=true" alt="image" width="400">
+
 
 ### Interpreting the results:
 - The heatmap visualizes the similarity scores between each image and text embedding.
