@@ -47,13 +47,13 @@ Replace /path/to/roco-dataset with the path to the ROCO dataset on your machine.
 - test_clip_embeddings: Tests and visualizes the cosine similarity between image and text embeddings.
 
 ## Results
-![img.png](img.png)
+![image](https://github.com/shirrashko/NLP-lab/blob/main/embedding%20from%20ROCO%20dataset/similarity%20graph.png?raw=true)
 
 ## Interpreting the results:
 - The heatmap visualizes the similarity scores between each image and text embedding.
 - Each cell in the heatmap corresponds to the similarity score between an image and a text.
 - Ideally, higher similarity scores (brighter colors) should align along the diagonal, indicating that each image is most similar to its corresponding caption.
 - Off-diagonal brighter cells indicate similarities between non-matching image-text pairs.
-- We can see that the model is able to capture the similarity between images and text, but it is not perfect.
+- We can see that the model is able to capture the similarity between images and text, by the bright diagonal line, but it is not perfect.
 - The results can be improved by fine-tuning the model on the ROCO dataset.
 - Such fine-tuning is not implemented in this project, although it is possible to do so using the [medclip repository](https://github.com/Kaushalya/medclip?tab=readme-ov-files).
