@@ -1,6 +1,7 @@
 # CLIP Embedding for ROCO Dataset
 
-This project utilizes the Contrastive Language–Image Pretraining (CLIP) model to generate embeddings for images and corresponding captions from the ROCO dataset. It is particularly focused on handling medical images and their descriptive text.
+This project utilizes the Contrastive Language–Image Pretraining (CLIP) model to generate embeddings for images and corresponding captions from the ROCO dataset. 
+It also tests the similarity between the embeddings of the images and the embeddings of the captions.
 
 ## Getting Started
 
